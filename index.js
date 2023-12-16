@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: false }));
 app.get("/api/get/req", (req, res) => {
   res.status(200).json({
     status: "Success !",
-    message: "Deployed Successfully",
+    message: "Deployed Successfully ...",
   });
 });
 
